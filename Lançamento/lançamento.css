@@ -31,3 +31,59 @@ header{
 .navbar a:hover{
     color: lightgrey;
 }
+
+.btn-buscar{
+    margin: 0 0 0 0.5rem;
+    padding: 0.5rem;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.menu-img{
+    width: 70%;
+}
+
+/* RODAPÉ */
+.rodape{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #808080;
+    color: white;
+    font-weight: bold;
+}
+
+.rodape-secao{
+    width: 20vw;
+}
+
+.rodape-secao a{
+    display: block;
+    margin: 1rem 0;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.rodape-secao-redes{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: -1rem;
+}
+
+.rodape-logos{
+    width: 40px;
+    margin: 0 0.5rem;
+}
+
+.rodape-secao-cartao{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
