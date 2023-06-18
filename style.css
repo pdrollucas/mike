@@ -13,6 +13,11 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 2rem;
+    margin: 0 auto;
+}
+
+.menu-hamburguer{
+    display: none;
 }
 
 .navbar{
@@ -49,6 +54,7 @@ header{
 
     /* BANNER 1 */
 .banner-1{
+    width: 100vw;
     height: 55vh;
     background-position: center;
     background-image: url("./imagens/banner-1.png");
@@ -105,7 +111,8 @@ header{
     background-color: lightgray;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    
+    border: 1px solid white;
+
     text-decoration: none;
 }
 
@@ -125,6 +132,7 @@ header{
 
 /* BANNER 2 */
 .banner-2{
+    width: 100vw;
     height: 55vh;
     background-position: center;
     background-image: url("./imagens/banner-2.png");
@@ -137,12 +145,11 @@ header{
 }
 
 /* CONHEÇA TAMBÉM */
-.conheca{
+.conheca, .conheca-cards{
     margin-top: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 2rem;
     background-color: #f1f1f1;
     padding: 1rem 1rem 1rem 5rem;
 }
@@ -196,4 +203,92 @@ header{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+}
+
+/*  Responsividade  */
+
+@media screen and (max-width: 512px){
+    /*  MENU  */
+    .navbar{
+        display: none;
+    }
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .menu-hamburguer{
+        display: inline;
+    }
+
+    /*  BANNERS */
+    .banner-1, .banner-2{
+        background-size: cover;
+        height: 40vh;
+
+        display: grid;
+    }
+
+    .btn-ver{
+        margin: 0 auto 1rem auto;
+    }
+
+    /*  TENIS  */
+    .tenis{
+        padding: 3rem 1rem;
+    }
+
+    .tenis-article{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .tenis-article .tenis-card:last-child{
+        display: none;
+    }
+
+    .tenis-titulo{
+        font-size: 1.5rem;
+    }
+
+    .tenis-img{
+        width: 45vw;
+    }
+
+    /*  CONHEÇA TAMBÉM  */
+    .conheca{
+        display: grid;
+        justify-content: center;
+        gap: 1rem;
+        padding: 2rem 0 2rem 0;
+    }
+
+    .conheca-cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        gap: 0.5rem;
+        padding: 0 0 0 0;
+    }
+
+    .conheca a{
+        margin: 0;
+    }
+
+    /*  Rodapé  */
+    .rodape{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .rodape-logos{
+        width: 30px;
+        margin: 0;
+    }
 }
