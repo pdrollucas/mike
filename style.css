@@ -52,6 +52,11 @@ header{
     width: 70%;
 }
 
+    /*  Menu Lateral */
+    .menu-lateral{
+        display: none;
+    }
+
     /* BANNER 1 */
 .banner-1{
     width: 100vw;
@@ -220,8 +225,51 @@ header{
         padding: 1rem;
     }
 
+    /*  Menu Lateral */
     .menu-hamburguer{
         display: inline;
+        background-color: white;
+    }
+
+    .menu-lateral {
+        display: flex;
+        flex-direction: column;
+        background-color: #15191C;
+        width: 75vw;
+        height: 90vh;
+    
+        position: absolute;
+        left: -100vw;
+        transition: .25s;
+    }
+    
+    .menu-lateral--ativo {
+        left: 0;
+        transition: .25s;
+    }
+    
+    .menu-lateral__link {
+        height: 64px;
+        color: #95999C;
+        font-weight: bold;
+        padding-left: 64px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .menu-lateral__link--ativo {
+        color: #FFFFFF;
+        padding-left: 56px;
+        border-left: 8px solid #FFFFFF;
+    }
+    
+    .menu-lateral__link::before {
+        content: "";
+        width: 24px;
+        height: 24px;
+        font-size: 24px;
+        position: absolute;
+        left: 24px;
     }
 
     /*  BANNERS */

@@ -1,4 +1,5 @@
 /*  Filtrar */
+
 const filterElement = document.querySelector('#btn-buscar')
 const cards = document.querySelectorAll('#tenis-card')
 
