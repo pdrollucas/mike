@@ -1,7 +1,14 @@
+<<<<<<< HEAD
  .banner-3{
     height: 55vh;
     background-position: center;
     background-image: url("../imagens/banner3.PNG");
+=======
+.banner-3{
+    height: 55vh;
+    background-position: center;
+    background-image: url("../imagens/banner-3.png");
+>>>>>>> d12991022c1c9942dd3e8556044154657c1e55ed
     background-repeat: no-repeat;
     background-size: cover;
 
