@@ -1,0 +1,298 @@
+.conteudo{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-content: center;
+	gap: 1rem;
+}
+.descricao{
+	display: grid;
+	grid-template-columns: 1fr 1fr ;
+	justify-content: center;
+	gap: 1rem;
+}
+.e152_1888 {
+	overflow: hidden;
+  }
+  
+  .e152_1888 {
+	width: 374px;
+	height: 330px;
+	position: absolute;
+	right: 50px; /* Atualizado para "right" */
+	top: 110px; /* Atualizado para "top" */
+  }
+  
+  .titulo {
+	color: rgba(0, 0, 0, 1);
+	width: 333px;
+	height: 62px;
+	position: absolute;
+	right: 38px; /* Atualizado para "right" */
+	top: 0px; /* Atualizado para "top" */
+	font-family: Inter;
+	text-align: left; /* Atualizado para "right" */
+	font-size: 26px;
+	letter-spacing: 0;
+  }
+  
+.preco { 
+	color:rgba(0, 0, 0, 1);
+	width:197px;
+	height:51px;
+	position:absolute;
+	left:3px;
+	top:82px;
+	text-align:left;
+	font-size:20px;
+	letter-spacing:0;
+}
+.tamanho { 
+	color:rgba(0, 0, 0, 1);
+	width:93px;
+	height:26px;
+	position:absolute;
+	left:0px;
+	top:164px;
+	font-family:Inter;
+	text-align:left;
+	font-size:20px;
+	letter-spacing:0;
+}
+.bolinhas { 
+	width:374px;
+	height:38.68965530395508px;
+	position:absolute;
+	left:0px;
+	top:199.959716796875px;
+}
+.design34 { 
+	width:38.68965530395508px;
+	height:38.68965530395508px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.design34_1 { 
+	border-radius:500px;
+	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	width:38.68965530395508px;
+	height:38.68965530395508px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.b34 { 
+	color:rgba(0, 0, 0, 1);
+	width:20.419540405273438px;
+	height:18.27011489868164px;
+	position:absolute;
+	left:8.597701072692871px;
+	top:9.672467231750488px;
+	font-family:Inter;
+	text-align:left;
+	font-size:14px;
+	letter-spacing:0;
+}
+.design35 { 
+	width:38.68965530395508px;
+	height:38.68965530395508px;
+	position:absolute;
+	left:55.88505935668945px;
+	top:0px;
+}
+.design35_1 { 
+	border-radius:500px;
+	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	width:38.68965530395508px;
+	height:38.68965530395508px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.b35 { 
+	color:rgba(0, 0, 0, 1);
+	width:20.419540405273438px;
+	height:18.27011489868164px;
+	position:absolute;
+	left:8.597748756408691px;
+	top:9.672467231750488px;
+	font-family:Inter;
+	text-align:left;
+	font-size:14px;
+	letter-spacing:0;
+}
+.design36 { 
+	width:38.68965530395508px;
+	height:38.68965530395508px;
+	position:absolute;
+	left:111.7701187133789px;
+	top:0px;
+}
+.design36_1 { 
+	border-radius:500px;
+	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	width:38.68965530395508px;
+	height:38.68965530395508px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.b36 { 
+	color:rgba(0, 0, 0, 1);
+	width:20.419540405273438px;
+	height:18.27011489868164px;
+	position:absolute;
+	left:8.597674369812012px;
+	top:9.672467231750488px;
+	font-family:Inter;
+	text-align:left;
+	font-size:14px;
+	letter-spacing:0;
+}
+.design37 { 
+	width:38.68965530395508px;
+	height:38.68965530395508px;
+	position:absolute;
+	left:167.65516662597656px;
+	top:0px;
+}
+.design37_1 { 
+	border-radius:500px;
+	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	width:38.68965530395508px;
+	height:38.68965530395508px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.b37 { 
+	color:rgba(0, 0, 0, 1);
+	width:19.34482765197754px;
+	height:18.27011489868164px;
+	position:absolute;
+	left:8.597722053527832px;
+	top:9.672467231750488px;
+	font-family:Inter;
+	text-align:left;
+	font-size:14px;
+	letter-spacing:0;
+}
+.design38 { 
+	width:38.68965530395508px;
+	height:38.68965530395508px;
+	position:absolute;
+	left:223.5402374267578px;
+	top:0px;
+}
+.design38_1 { 
+	border-radius:500px;
+	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	width:38.68965530395508px;
+	height:38.68965530395508px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.b38 { 
+	color:rgba(0, 0, 0, 1);
+	width:20.419540405273438px;
+	height:18.27011489868164px;
+	position:absolute;
+	left:8.597647666931152px;
+	top:9.672467231750488px;
+	font-family:Inter;
+	text-align:left;
+	font-size:14px;
+	letter-spacing:0;
+}
+.design39 { 
+	width:38.68965530395508px;
+	height:38.68965530395508px;
+	position:absolute;
+	left:279.42529296875px;
+	top:0px;
+}
+.design39_1 { 
+	border-radius:500px;
+	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	width:38.68965530395508px;
+	height:38.68965530395508px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.b39 { 
+	color:rgba(0, 0, 0, 1);
+	width:20.419540405273438px;
+	height:18.27011489868164px;
+	position:absolute;
+	left:8.597695350646973px;
+	top:9.672467231750488px;
+	font-family:Inter;
+	text-align:left;
+	font-size:14px;
+	letter-spacing:0;
+}
+.design40 { 
+	width:38.68965530395508px;
+	height:38.68965530395508px;
+	position:absolute;
+	left:335.3103332519531px;
+	top:0px;
+}
+.design40_1 { 
+	border-radius:500px;
+	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	width:38.68965530395508px;
+	height:38.68965530395508px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.b40 { 
+	color:rgba(0, 0, 0, 1);
+	width:21.494253158569336px;
+	height:18.27011489868164px;
+	position:absolute;
+	left:8.597743034362793px;
+	top:9.672467231750488px;
+	font-family:Inter;
+	text-align:left;
+	font-size:14px;
+	letter-spacing:0;
+}
+.designBotao { 
+	background-color:rgba(11.032297611236572, 103.64050269126892, 189.12500202655792, 1);
+	width:258px;
+	height:66px;
+	position:absolute;
+	left:63px;
+	top:264px;
+	border-top-left-radius:8px;
+	border-top-right-radius:8px;
+	border-bottom-left-radius:8px;
+	border-bottom-right-radius:8px;
+}
+
+.designBotao_1 {
+	background-color: rgba(11.032297611236572, 103.64050269126892, 189.12500202655792, 1);
+	color: rgba(255, 255, 255, 1);
+	width: 258px;
+	height: 29px;
+	font-family: Inter;
+	text-align: center;
+	font-size: 24px;
+	letter-spacing: 0;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+	line-height: 66px; /* Centraliza verticalmente */
+}
+  
+  .designBotao_1:hover {
+	background-color: rgba(8.032297611236572, 80.64050269126892, 150.12500202655792, 1);
+  }
+  
+  .designBotao_1:focus {
+	outline: none;
+  }
