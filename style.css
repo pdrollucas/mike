@@ -9,11 +9,18 @@
 
     /* MENU */
 header{
+    position: fixed;
+    width: 100vw;
+    height: 10vh;
+    background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2rem;
-    margin: 0 auto;
+}
+
+main{
+    padding-top: 10vh;
 }
 
 .menu-hamburguer{
@@ -157,6 +164,10 @@ header{
     align-items: center;
     background-color: #f1f1f1;
     padding: 1rem 1rem 1rem 5rem;
+}
+
+.conheca{
+    margin: 2rem 7rem;
 }
 
 .conheca a{
